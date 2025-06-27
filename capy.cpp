@@ -4,10 +4,19 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-    std::string input = argv[1];
 
+    std::string input;
 
-    std::string capybara = std::format(R"(
+    if (argc > 1) {
+        input = argv[1];
+    }
+    else {
+        input = "Capybara Supremacy!";
+    }
+
+    std::string capybara;
+        
+    capybara = std::format(R"(
 
     /\__/\_
    /       \
