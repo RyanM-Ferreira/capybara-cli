@@ -1,1 +1,4 @@
 capybara.exe
+/.vs
+*.sln
+*.vcxproj
