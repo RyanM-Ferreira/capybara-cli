@@ -2,3 +2,7 @@ capybara.exe
 /.vs
 *.sln
 *.vcxproj
+/obj
+*.pdb
+*.exe
+*.user

@@ -1,20 +1,26 @@
 #include <iostream>
+#include <format>
 using namespace std;
 
-int main()
+int main(int argc, char* argv[])
 {
-    cout << R"(
+    std::string input = argv[1];
+
+
+    std::string capybara = std::format(R"(
 
     /\__/\_
    /       \
   /    0    \----------_
- | Y                    \  Capybara Supremacy!
+ | Y                    \  {}!
  \______/                \
        \                 |
         |   /-______-|    \
         |   |         \   /
        //__/         //__/
 
-    )" << endl;
+    )",input);
+
+    cout << capybara << endl;
     return 0;
 }
