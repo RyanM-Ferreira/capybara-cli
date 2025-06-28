@@ -1,8 +1,15 @@
-capybara.exe
+# Visual Studio
 /.vs
 *.sln
 *.vcxproj
-/obj
 *.pdb
 *.exe
 *.user
+
+# Compilação (no geral)
+/obj
+/bin
+
+# GCC - Gmake
+*.make
+Makefile
