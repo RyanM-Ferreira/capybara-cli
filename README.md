@@ -2,7 +2,7 @@
 This Program is a terminal utilitary that makes a capybara say something that you wrote
 
 ## Running
-after installing it with scoop, or compiling it from the source simply run capybara argument
+after installing it with scoop, or compiling it from the source simply run capybara (argument)
 ```bash
 capybara argument
 ```
