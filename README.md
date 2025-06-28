@@ -2,7 +2,7 @@
 This Program is a terminal utilitary that makes a capybara say something that you wrote
 
 ## Running
-after installing it with scoop, or compiling it from the source simply run capybara (argument)
+After installing it with scoop, or compiling it from the source simply run capybara (argument)
 ```bash
 capybara argument
 ```
@@ -18,7 +18,7 @@ capybara argument
        //__/         //__/
 
 ```
-if no arguments are provided it will simply say "Capybara supremacy!"
+If no arguments are provided it will simply say "Capybara supremacy!"
 ```
     /\__/\_
    /       \
@@ -35,7 +35,7 @@ if no arguments are provided it will simply say "Capybara supremacy!"
 ## building
 To build just run premake with the proper arguments on the root directory, if you don't know what arguments to you use, see the premake documentention, and you need to have premake installed.
 
-exemple:
+Exemple:
 ```
 premake5 vs2022
 ```
