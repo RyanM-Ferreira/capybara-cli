@@ -1,12 +1,12 @@
 {
-    "version": "0.2",
+    "version": "0.3",
     "description": "The capybara watching you on the console.",
     "homepage": "https://github.com/RyanM-Ferreira/capybara-cli",
     "license": "UNLICENSE",
     "architecture": {
         "64bit": {
             "url": "https://github.com/RyanM-Ferreira/capybara-cli/releases/download/v0.2/capybara.exe",
-            "hash": "91CD499EE900C85E90D792161AE56C76FAD60531D5BAA9B3FCB57AB69ACB76F4"
+            "hash": "15AD384B1A2AB781AEC343FDD7706BC551205445954C377B4BBB61D95B7B0FE5"
         }
     },
     "bin": "capybara.exe"
