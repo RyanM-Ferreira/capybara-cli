@@ -32,6 +32,14 @@ if no arguments are provided it will simply say "Capybara supremacy!"
 
 ```
 
+## building
+To build just run premake with the proper arguments on the root directory, if you don't know what arguments to you use, see the premake documentention, and you need to have premake installed.
+
+exemple:
+```
+premake5 vs2022
+```
+
 ## Something There
 Just a test to add buckets and packages to the scoop. Nothing interesting to see here.
 
