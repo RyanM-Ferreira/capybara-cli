@@ -22,12 +22,12 @@ scoop install capybara
 After installing with Scoop (or compiling from source), just run:
 
 ```bash
-capybara "your message here"
+capysay "your message here"
 ```
 
 Example output:
 
-```
+```plaintext
     /\__/\_
    /       \
   /    0    \----------_
@@ -41,7 +41,7 @@ Example output:
 
 If no argument is passed, it defaults to:
 
-```bash
+```plaintext
 Capybara supremacy!
 ```
 
@@ -51,7 +51,7 @@ Capybara supremacy!
 
 To build, run **Premake** in the root directory with your desired arguments. Make sure you have Premake installed.
 
-### Example:
+### Example
 
 ```bash
 premake5 vs2022
