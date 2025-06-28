@@ -5,8 +5,8 @@
     "license": "UNLICENSE",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RyanM-Ferreira/capybara-cli/releases/download/v0.3/capysay.exe",
-            "hash": "D5F18329D3CE9790A85C093870C612738FF976D823C965C27DD6853246B5DA04"
+            "url": "https://github.com/RyanM-Ferreira/capybara-cli/releases/download/v0.4/capysay.exe",
+            "hash": "D0808D134BAB9137C88489EBF268A4FA94FF3BEED903F00534812E9CF0C18ECF"
         }
     },
     "bin": "capysay"

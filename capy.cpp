@@ -30,6 +30,7 @@ int main(int argc, char *argv[])
     const int maxPerLine = 19;
     int textStartLine = 2;
 
+    // Calcula a maior linha
     size_t biggestLine = 0;
     for (const auto line : capybara)
     {
@@ -39,6 +40,7 @@ int main(int argc, char *argv[])
         }
     }
 
+    // Quebra a linha
     for (int i = 0; i < capybaraLines; i++)
     {
         cout << capybara[i];
