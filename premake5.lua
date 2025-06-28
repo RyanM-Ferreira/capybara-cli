@@ -14,9 +14,9 @@ files {"**.cpp"}
 filter "configurations:Debug"
 defines {"DEBUG"}
 symbols "On"
-targetname "capysay" -- * Eu mudei os binaries, eu deveria mudar alguma coisa no json do Bucket?
+targetname "capybara" -- * Eu mudei os binaries, eu deveria mudar alguma coisa no json do Bucket?
 
 filter "configurations:Release"
 defines {"NDEBUG"}
 optimize "On"
-targetname "capysay" -- * Eu mudei os binaries, eu deveria mudar alguma coisa no json do Bucket?
+targetname "capybara" -- * Eu mudei os binaries, eu deveria mudar alguma coisa no json do Bucket?
