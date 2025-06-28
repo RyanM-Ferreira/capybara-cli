@@ -18,4 +18,4 @@ symbols "On"
 filter "configurations:Release"
 defines {"NDEBUG"}
 optimize "On"
-targetname "capysay"
+targetname "capysay" -- * Eu mudei os binaries, eu deveria mudar alguma coisa no json do Bucket?
