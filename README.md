@@ -61,9 +61,9 @@ For other build options, check the [Premake documentation](https://premake.githu
 
 ---
 
-## 📍 License
+## License
 
-No license defined. Do whatever you want... just be nice to capybaras.
+Public domain license. Do whatever you want... just be nice to capybaras.
 
 ---
 
