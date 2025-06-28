@@ -33,7 +33,7 @@ If no arguments are provided it will simply say "Capybara supremacy!"
 ```
 
 ## building
-To build just run premake with the proper arguments on the root directory, if you don't know what arguments to you use, see the premake documentention, and you need to have premake installed.
+To build just run premake with the proper arguments on the root directory, if you don't know what arguments to you use, see the [premake documentention](https://premake.github.io/docs/), and you need to have premake installed.
 
 Exemple:
 ```
