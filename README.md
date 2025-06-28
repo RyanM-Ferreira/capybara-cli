@@ -22,7 +22,7 @@ scoop install capybara
 After installing with Scoop (or compiling from source), just run:
 
 ```bash
-capysay "your message here"
+capybara "your message here"
 ```
 
 Example output:
