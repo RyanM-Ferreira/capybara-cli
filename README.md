@@ -27,7 +27,7 @@ capybara "your message here"
 
 Example output:
 
-```bash
+```
     /\__/\_
    /       \
   /    0    \----------_
