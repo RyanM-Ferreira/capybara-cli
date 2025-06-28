@@ -1,49 +1,70 @@
-# Capybara
-This Program is a terminal utilitary that makes a capybara say something that you wrote
+# Capybara CLI
 
-## Running
-After installing it with scoop, or compiling it from the source, simply run capybara (argument)
+A friendly capybara that says anything you want... right in your terminal.
+
+This is a simple terminal utility, mainly created as a test for adding buckets and packages to **Scoop**. Nothing too serious but capybaras are awesome, aren't they?
+
+---
+
+## Installation
+
+It is available on Scoop, install it like this:
+
 ```bash
-capybara argument
+scoop bucket add capybara https://github.com/RyanM-Ferreira/capybara-cli
+scoop install capybara
 ```
+
+---
+
+## Usage
+
+After installing with Scoop (or compiling from source), just run:
+
+```bash
+capybara "your message here"
 ```
+
+Example output:
+
+```bash
     /\__/\_
    /       \
   /    0    \----------_
- | Y                    \  argument
+ | Y                    \  Hello world!
  \______/                \
        \                 |
         |   /-______-|    \
         |   |         \   /
        //__/         //__/
-
-```
-If no arguments are provided it will simply say "Capybara supremacy!"
-```
-    /\__/\_
-   /       \
-  /    0    \----------_
- | Y                    \  Capybara supremacy!
- \______/                \
-       \                 |
-        |   /-______-|    \
-        |   |         \   /
-       //__/         //__/
-
 ```
 
-## Building
-To build just run premake with the proper arguments on the root directory, if you don't know what arguments to you use, see the [premake documentention](https://premake.github.io/docs/), and you need to have premake installed.
+If no argument is passed, it defaults to:
 
-Exemple:
+```bash
+Capybara supremacy!
 ```
+
+---
+
+## Building from Source
+
+To build, run **Premake** in the root directory with your desired arguments. Make sure you have Premake installed.
+
+### Example:
+
+```bash
 premake5 vs2022
 ```
 
-## Something There
-Just a test to add buckets and packages to the scoop. Nothing interesting to see here.
+For other build options, check the [Premake documentation](https://premake.github.io/docs/Using-Premake).
 
-```bash
-scoop bucket add capybara https://github.com/RyanM-Ferreira/capybara-cli bucket
-scoop install capybara
-```
+---
+
+## 📍 License
+
+No license defined. Do whatever you want... just be nice to capybaras.
+
+---
+
+> Done for no particular reason, and maybe a little coffee.
